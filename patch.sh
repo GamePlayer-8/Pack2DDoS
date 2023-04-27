@@ -9,5 +9,6 @@ cd $SCRIPT_PATH
 git clone --recursive https://github.com/MatrixTM/MHDDoS DDoS
 
 cp DDoS/requirements.txt .
+cp standalone.py DDoS/
 
 cd "$BACK_PATH"
