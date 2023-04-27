@@ -1,1 +1,5 @@
 tzdata
+queue
+urllib
+socket
+optparse
