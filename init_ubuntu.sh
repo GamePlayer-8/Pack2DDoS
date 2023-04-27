@@ -32,8 +32,7 @@ for X in $(cat requirements.txt); do
     py_deps_DDoS=$py_deps_DDoS' --collect-all '$X
 done
 
-py_deps_DDoS=$py_deps_DDoS' --collect-all DDoS.default_config --collect-all DDoS.default_redeems --collect-all DDoS.sqlite'
-py_deps_DDoS=$py_deps_DDoS' --collect-all tzdata'
+py_deps_DDoS=$py_deps_DDoS' --collect-all tzdata --collect-all PyRoxy '
 
 for X in $(find . -name '__pycache__'); do
     rm -rf "$X"
