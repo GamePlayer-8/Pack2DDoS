@@ -98,7 +98,6 @@ chmod +x DDoS-musl
 
 cd /source
 
-rm -f installer.apk
 /sbin/apk.static -X https://dl-cdn.alpinelinux.org/alpine/latest-stable/main -U --allow-untrusted -p /source/DDoS.AppDir/ --initdb add --no-cache alpine-base busybox libc6-compat
 
 cd DDoS.AppDir/
